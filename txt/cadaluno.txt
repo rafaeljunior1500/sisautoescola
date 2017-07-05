@@ -1,0 +1,113 @@
+<div class="bootstrap-iso">
+ <div class="container-fluid">
+  <div class="row">
+   <div class="col-md-6 col-sm-6 col-xs-12">
+    <form method="post">
+     <div class="form-group ">
+      <label class="control-label " for="cdaluno_renach">
+       Renach
+      </label>
+      <div class="input-group">
+       <div class="input-group-addon">
+        <i class="fa fa-credit-card">
+        </i>
+       </div>
+       <input class="form-control" id="cdaluno_renach" name="cdaluno_renach" placeholder="000000000000000" type="text"/>
+      </div>
+     </div>
+     <div class="form-group ">
+      <label class="control-label " for="cdaluno_clinica">
+       Clinica
+      </label>
+      <div class="input-group">
+       <div class="input-group-addon">
+        <i class="fa fa-hospital-o">
+        </i>
+       </div>
+       <input class="form-control" id="cdaluno_clinica" name="cdaluno_clinica" type="text"/>
+      </div>
+     </div>
+     <div class="form-group ">
+      <label class="control-label " for="cdaluno_cursoteorico">
+       Curso Te&oacute;rico
+      </label>
+      <div class="input-group">
+       <div class="input-group-addon">
+        <i class="fa fa-university">
+        </i>
+       </div>
+       <input class="form-control" id="cdaluno_cursoteorico" name="cdaluno_cursoteorico" type="text"/>
+      </div>
+     </div>
+     <div class="form-group ">
+      <label class="control-label requiredField" for="cdaluno_nomedoaluno">
+       Nome do Aluno
+       <span class="asteriskField">
+        *
+       </span>
+      </label>
+      <div class="input-group">
+       <div class="input-group-addon">
+        <i class="fa fa-user">
+        </i>
+       </div>
+       <input class="form-control" id="cdaluno_nomedoaluno" name="cdaluno_nomedoaluno" type="text"/>
+      </div>
+     </div>
+     <div class="form-group ">
+      <label class="control-label requiredField" for="cdaluno_filiacaopai">
+       Filia&ccedil;&atilde;o
+       <span class="asteriskField">
+        *
+       </span>
+      </label>
+      <div class="input-group">
+       <div class="input-group-addon">
+        <i class="fa fa-user-plus">
+        </i>
+       </div>
+       <input class="form-control" id="cdaluno_filiacaopai" name="cdaluno_filiacaopai" placeholder="Nome do Pai" type="text"/>
+      </div>
+     </div>
+     <div class="form-group ">
+      <label class="control-label requiredField" for="cdaluno_filiacaomae">
+       Filia&ccedil;&atilde;o
+       <span class="asteriskField">
+        *
+       </span>
+      </label>
+      <div class="input-group">
+       <div class="input-group-addon">
+        <i class="fa fa-user-plus">
+        </i>
+       </div>
+       <input class="form-control" id="cdaluno_filiacaomae" name="cdaluno_filiacaomae" placeholder="Nome da M&atilde;e" type="text"/>
+      </div>
+     </div>
+     <div class="form-group ">
+      <label class="control-label requiredField" for="cdaluno_cpf">
+       Cpf
+       <span class="asteriskField">
+        *
+       </span>
+      </label>
+      <div class="input-group">
+       <div class="input-group-addon">
+        <i class="fa fa-search-minus">
+        </i>
+       </div>
+       <input class="form-control" id="cdaluno_cpf" name="cdaluno_cpf" placeholder="000.000.000-83" type="text"/>
+      </div>
+     </div>
+     <div class="form-group">
+      <div>
+       <button class="btn btn-primary " name="submit" type="submit">
+        Submit
+       </button>
+      </div>
+     </div>
+    </form>
+   </div>
+  </div>
+ </div>
+</div>
